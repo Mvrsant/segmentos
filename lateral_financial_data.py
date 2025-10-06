@@ -1,34 +1,4 @@
 
-Skip to content
-Navigation Menu
-Mvrsant
-calculoswdo
-
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-calculoswdo
-/lateral_financial_data.py
-Go to file
-t
-Mvrsant
-Mvrsant
-ajustadinho
-a25efe2
- · 
-18 hours ago
-
-Code
-
-Blame
-286 lines (254 loc) · 10.2 KB
 import streamlit as st
 import pandas as pd
 import yfinance as yf
@@ -315,54 +285,3 @@ def exibir_metricas_ptax(ptax_validas):
                 value=f"R$ {ptax['valor']:.4f}",
                 help=f"Cotação PTAX número {i+1} do dia\nData: {ptax['data']}\nHora: {ptax['hora']}"
             )
-Symbols
-Find definitions and references for functions and other symbols in this file by clicking a symbol below or in the code.
-Filter symbols
-r
-const
-TICKERS
-const
-URLS
-const
-HEADERS
-const
-DEFAULT_EXCEL_PATH
-func
-baixar_planilha_github
-func
-safe_execute
-func
-extrair_valor
-func
-calcular_vencimento_wdo
-func
-obter_cotacoes_yfinance
-func
-obter_valor_grama_ouro_reais
-func
-obter_variacao_dxy
-func
-carregar_dados_excel
-func
-extrair_sup_vol_b3
-func
-obter_cotacoes_ptax
-func
-calcular_paridade_ouro
-func
-calcular_abertura_wdo
-func
-calcular_over
-func
-calcular_preco_justo
-func
-calcular_bandas
-func
-calcular_bandas_ptax
-func
-criar_tabela_bandas_ptax
-func
-exibir_metricas_ptax
-
-Explicar
-calculoswdo/lateral_financial_data.py at main · Mvrsant/calculoswdo
