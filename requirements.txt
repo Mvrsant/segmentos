@@ -1,0 +1,9 @@
+streamlit
+pandas
+yfinance
+requests
+BeautifulSoup4
+numpy
+python-bcb
+openpyxl
+matplotlib
